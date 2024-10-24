@@ -1,0 +1,12 @@
+{
+    "type": "record",
+    "name": "WORKERS",
+    "namespace": "kafkaexample",
+    "fields": [
+        {"name": "workerid", "type": "int"},
+        {"name": "workername", "type": "string"},
+        {"name": "department", "type": "string"},
+        {"name": "salary", "type": "int"},
+        {"name": "city", "type": "string"}
+    ]
+}
